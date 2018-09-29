@@ -7,7 +7,7 @@ Created on Sun Sep 23 13:27:43 2018
 
 import math
 from functions import get_hand_total, check_for_bust, check_for_blackjack, BJ_RANKS
-form pydealer import Stack
+from pydealer import Stack
 from dealer import Dealer
 from player import Player
 
@@ -204,7 +204,7 @@ class GameManager(object):
         print("#################################")
         print("     POT: {:<3}   | CHIPS LEFT: {:<3}".format(bet, self.user.get_chips() - bet))
         print("---------------------------------")
-        print("# DEALER HAND   |   PLAYER HAND #")
+        print("  DEALER HAND   |   PLAYER HAND  ")
         
         for card in self.dealer.get_hand():
             dealer_cards.append(self.print_card(card, hide_dealer))
@@ -255,11 +255,11 @@ class GameManager(object):
             else:
                 value = card.value
             lines.append('   ┌───────┐   ')
-            lines.append(f'   | {value:<2}    |   ')
+            lines.append('   | {:<2}    |   '.format(value))
             lines.append('   |       |   ')
-            lines.append(f'   |   {suit}   |   ')
+            lines.append('   |   {}   |   '.format(suit))
             lines.append('   |       |   ')
-            lines.append(f'   |    {value:>2} |   ')
+            lines.append('   |    {:>2} |   '.format(value))
             lines.append('   └───────┘   ')
             return lines
 
