@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Sep 29 00:26:09 2018
-
-@author: learn
+@author: Ryan Hanks
 """
 
 import random
