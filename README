@@ -5,7 +5,7 @@ To Play Game:
 	- Must have Python 3
   	- Need to install pydealer
 
-If Python3 is intalled and the default python language, run 
+If Python3 is installed and the default python language, run 
 the following commands:
 > pip install pydealer
 > python blackjack.py
@@ -29,7 +29,7 @@ Game Specifics:
 	- No Insurance will be offered
 
 Design Choices:
-I wrote three classes to handle the core functionallity of blackjack.
+I wrote three classes to handle the core functionality of blackjack.
 The Player and Dealer classes represent the player and dealer at the 
 table, and the  GameManager class keeps track of what state the game 
 is in and delegates tasks to the Player and Dealer in accordance with
@@ -37,15 +37,15 @@ blackjack protocol. Additionally, the GameManager handles all input from
 the user and output to the console. 
 
 The dictionary BJ_RANKS stores the value of the card and its point total 
-for blackjack together. For example BJ_RANKS["Queen"] == 10. 
+for blackjack together. For example, BJ_RANKS["Queen"] == 10. 
 
 The dictionary SUITS stores the string representation of suit and the 
 unicode representation of suit together to improve the console display. 
-For Example SUITS['Hearts'] == '♥'.
+For Example, SUITS['Hearts'] == '♥'.
 
 The dictionary VALUES stores the string representation of face cards and
 their one character representation together to improve console display.
-For example VALUES['King'] == 'K'. 
+For example, VALUES['King'] == 'K'. 
 
 I used an external package "pydealer" for its Card, Stack, and Deck classes.
 The Card class represents a playing card with a value and string pair, and 
