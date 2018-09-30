@@ -41,9 +41,8 @@ class Dealer(object):
     
     def reshuffle(self):
         """Reset the decks so that there is one deck of 104 shuffled cards"""
-        print("Reshuffle")
         new_deck = Deck()
         new_deck.build()
         new_deck.shuffle()
-        self.deck = new_deck()
+        self.deck = new_deck
         self.cut_num = random.randint(12, 42)
