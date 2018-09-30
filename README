@@ -58,25 +58,8 @@ deck of 52 playing cards.
 
 Link to pydealer documentation: https://pydealer.readthedocs.io/en/latest/code.html
 
-
-
-UI/Display
-
 I decided to use python because it is objected oriented and easy to use for 
 both developers and users. 
 
 I decided to use unittest for all unittesting because it does not require the 
 user to install any modules in order to use it. 
-
- 
-
-
-Game Manager
-player
-dealer
-
-play hand() function
-
-python 
-
-
