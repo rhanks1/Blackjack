@@ -12,11 +12,6 @@ from pydealer import Stack
 from dealer import Dealer
 from player import Player
 
-
-"""
-Fix split pot and chips display by adding chips remaning paramater to diplay table()
-"""
-
 SUITS = {'Spades': '♠','Hearts': '♥','Diamonds': '♦','Clubs': '♣'}
 VALUES = {
         'Ace': 'A',
