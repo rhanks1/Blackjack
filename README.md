@@ -6,8 +6,9 @@
 * Need to install pydealer
 
 If Python3 is installed and the default python language, run 
-the following commands.
-```pip install pydealer
+the following commands:
+```Unix
+pip install pydealer
 python blackjack.py
 ```
 On many machines, Python2 is the default version eventhough Python3 is installed. 
@@ -15,11 +16,15 @@ If this is the case, run the following commands instead:
 pip3 install pydealer
 python3 blackjack.py
 
+### Testing
 To run unittests, run the following command in the top directory of the 
 project:
+'''Unix
 python3 -m unittest discover
+'''
 
-Rules for Blackjack: https://www.bicyclecards.com/how-to-play/blackjack/
+### Rules 
+Official blackjack rules: https://www.bicyclecards.com/how-to-play/blackjack/
 
 Game Specifics:
 * User will start with 100 chips
@@ -28,7 +33,7 @@ Game Specifics:
 * Only one card will be dealt to Double Down and Split hands 
 * No Insurance will be offered
 
-### Design Choices:
+### Design Choices
 I wrote three classes to handle the core functionality of blackjack.
 The Player and Dealer classes represent the player and dealer at the 
 table, and the  GameManager class keeps track of what state the game 
