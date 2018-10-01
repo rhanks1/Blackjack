@@ -52,7 +52,7 @@ The dictionary VALUES stores the string representation of face cards and
 their one character representation together to improve console display.
 For example, VALUES['King'] == 'K'. 
 
-I used an external package "pydealer" for its Card, Stack, and Deck classes.
+I used an external package [pydealer](https://pydealer.readthedocs.io/en/latest/code.html) for its Card, Stack, and Deck classes.
 The Card class represents a playing card with a value and string pair, and 
 it has some useful built in methods. The Stack class is a generic card 
 container with built in methods to allow users to manipulate the cards held 
@@ -60,8 +60,6 @@ inside them. I used the Stack class to represent the player's and dealer's
 hands. The Deck class is a subclass of Stack that has a few extra methods 
 that you would expect decks to have. I used the Deck class to represent a 
 deck of 52 playing cards.
-
-Link to pydealer documentation: https://pydealer.readthedocs.io/en/latest/code.html
 
 I decided to use python because it is objected oriented and easy to use for 
 both developers and users. 
