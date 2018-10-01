@@ -1,7 +1,7 @@
 
 # BLACKJACK
 
-###### To Play Game:
+### To Play Game:
 * Must have Python 3
 * Need to install pydealer
 
