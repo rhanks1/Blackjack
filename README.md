@@ -19,9 +19,9 @@ python3 blackjack.py
 ### Testing
 To run unittests, run the following command in the top directory of the 
 project:
-'''Unix
+```Unix
 python3 -m unittest discover
-'''
+```
 
 ### Rules 
 Official blackjack rules: https://www.bicyclecards.com/how-to-play/blackjack/
@@ -60,9 +60,3 @@ inside them. I used the Stack class to represent the player's and dealer's
 hands. The Deck class is a subclass of Stack that has a few extra methods 
 that you would expect decks to have. I used the Deck class to represent a 
 deck of 52 playing cards.
-
-I decided to use python because it is objected oriented and easy to use for 
-both developers and users. 
-
-I decided to use unittest for all unittesting because it does not require the 
-user to install any modules in order to use it. 
