@@ -1,32 +1,32 @@
 
-BLACKJACK
+#BLACKJACK
 
-To Play Game:
+##To Play Game:
 	- Must have Python 3
   	- Need to install pydealer
 
 If Python3 is installed and the default python language, run 
 the following commands:
-> pip install pydealer
-> python blackjack.py
+```pip install pydealer```
+```python blackjack.py```
 
 On many machines, Python2 is the default version eventhough Python3 is installed. 
 If this is the case, run the following commands instead: 
-> pip3 install pydealer
-> python3 blackjack.py
+```pip3 install pydealer```
+```python3 blackjack.py```
 
 To run unittests, run the following command in the top directory of the 
 project:
-> python3 -m unittest discover 
+```python3 -m unittest discover```
 
 Rules for Blackjack: https://www.bicyclecards.com/how-to-play/blackjack/
 
 Game Specifics:
-	- User will start with 100 chips
-	- Blackjack pays out 3:2
-	- Double Down and Split bets can be less than or equal to original bet
-	- Only one card will be dealt to Double Down and Split hands 
-	- No Insurance will be offered
+	*User will start with 100 chips
+	*Blackjack pays out 3:2
+	*Double Down and Split bets can be less than or equal to original bet
+	*Only one card will be dealt to Double Down and Split hands 
+	*No Insurance will be offered
 
 Design Choices:
 I wrote three classes to handle the core functionality of blackjack.

@@ -13,7 +13,7 @@ class TestDealer(unittest.TestCase):
         self.assertEqual(self.dealer.deck.size, 104)
 
     def test_cut_number(self):
-        self.assertTrue(self.dealer.cut_num >= 12 and self.dealer.cut_num < 42)
+        self.assertTrue(self.dealer.cut_num >= 12 and self.dealer.cut_num <= 42)
 
     def test_get_deck(self):
         self.assertEqual(self.dealer.get_deck(), self.dealer.deck)
