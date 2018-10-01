@@ -13,8 +13,10 @@ python blackjack.py
 ```
 On many machines, Python2 is the default version eventhough Python3 is installed. 
 If this is the case, run the following commands instead: 
+```Unix
 pip3 install pydealer
 python3 blackjack.py
+```
 
 ### Testing
 To run unittests, run the following command in the top directory of the 
