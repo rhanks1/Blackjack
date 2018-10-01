@@ -7,17 +7,17 @@
 
 If Python3 is installed and the default python language, run 
 the following commands:
-```pip install pydealer
-python blackjack.py```
+pip install pydealer
+python blackjack.py
 
 On many machines, Python2 is the default version eventhough Python3 is installed. 
 If this is the case, run the following commands instead: 
-```pip3 install pydealer```
-```python3 blackjack.py```
+pip3 install pydealer
+python3 blackjack.py
 
 To run unittests, run the following command in the top directory of the 
 project:
-```python3 -m unittest discover```
+python3 -m unittest discover
 
 Rules for Blackjack: https://www.bicyclecards.com/how-to-play/blackjack/
 
